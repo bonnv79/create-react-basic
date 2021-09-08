@@ -6,7 +6,8 @@
 
 ## Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project is used to generate react libraries (npm package). When using it, you should change all create-react-basic names to the library names you want.
 
 ## Install
 
@@ -71,6 +72,35 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Deploy
+
+To deploy the library you do the following steps:
+
+1. Skip this step if you have done it before
+### `npm install`
+
+2. You can run:
+### `npm run deploy`
+
+Runs the app in the github mode.\
+Open [https://bonnv79.github.io/create-react-basic/](https://bonnv79.github.io/create-react-basic/) to view it in the browser.
+
+## Publish
+
+To deploy the library you do the following steps:
+
+1. Skip this step if you have done it before
+### `npm install`
+
+2. Next you run the syntax:
+### `npm run compile`
+
+3. To complete publish you run the syntax:
+### `npm publish`
+
+You can access your library by following the link below.\
+Open [https://www.npmjs.com/package/create-react-basic](https://www.npmjs.com/package/create-react-basic) to view it in the browser.
 
 ## License
 
