@@ -1,22 +1,22 @@
-# create-react-basic
+# react-library-basic
 
-> create-react-basic
+> react-library-basic
 
-[![NPM](https://img.shields.io/npm/v/create-react-basic.svg)](https://www.npmjs.com/package/create-react-basic) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-library-basic.svg)](https://www.npmjs.com/package/react-library-basic) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Getting Started with Create React App
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-- This project is used to generate react libraries (npm package). When using it, you should change all create-react-basic names to the library names you want.
+- This project is used to generate react libraries (npm package). When using it, you should change all react-library-basic names to the library names you want.
 
 ## Install
 
 ```bash
-npm install --save create-react-basic
+npm install --save react-library-basic
 ```
 
 ## Demo
-Demo and playground are available [here](https://bonnv79.github.io/create-react-basic/)
+Demo and playground are available [here](https://bonnv79.github.io/react-library-basic/)
 
 ## Versions
 [CHANGELOG](CHANGELOG.md)
@@ -24,7 +24,7 @@ Demo and playground are available [here](https://bonnv79.github.io/create-react-
 ## Usage Example
 ```JavaScript
 import React from 'react';
-import Component from 'create-react-basic';
+import Component from 'react-library-basic';
 
 const Demo = () => {
   const [value, setValue] = React.useState('');
@@ -84,7 +84,7 @@ To deploy the library you do the following steps:
 ### `npm run deploy`
 
 Runs the app in the github mode.\
-Open [https://bonnv79.github.io/create-react-basic/](https://bonnv79.github.io/create-react-basic/) to view it in the browser.
+Open [https://bonnv79.github.io/react-library-basic/](https://bonnv79.github.io/react-library-basic/) to view it in the browser.
 
 ## Publish
 
@@ -100,7 +100,7 @@ To deploy the library you do the following steps:
 ### `npm publish`
 
 You can access your library by following the link below.\
-Open [https://www.npmjs.com/package/create-react-basic](https://www.npmjs.com/package/create-react-basic) to view it in the browser.
+Open [https://www.npmjs.com/package/react-library-basic](https://www.npmjs.com/package/react-library-basic) to view it in the browser.
 
 ## License
 

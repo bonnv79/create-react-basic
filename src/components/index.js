@@ -1,38 +1,21 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./index.css";
+function sum() {
+  let total = 0;
 
-function Component({ title, logo }) {
+  for (let i = 0; i < arguments.length; i += 1) {
+    total += arguments[i];
+  }
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/components/index.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React - {title}
-        </a>
-      </header>
-    </div>
-  )
+  return total;
 }
 
-Component.defaultProps = {
-  title: '',
-  logo: ''
-};
+function multip() {
+  let res = 1;
 
-Component.propTypes = {
-  title: PropTypes.string,
-  logo: PropTypes.string
-};
+  for (let i = 0; i < arguments.length; i += 1) {
+    res *= arguments[i];
+  }
 
-export default Component;
-export { Component };
+  return res;
+}
+
+export { sum, multip };

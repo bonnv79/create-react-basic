@@ -2,4 +2,4 @@
 
 ##### 1.0.0
 
-- Initial create-react-basic
+- Initial react-library-basic
